@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactoyFormulario</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  
+  <header class="logo"> 
+
+    <h1>MOVIENDO NOS</h1>
+
+        <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li> 
+            <li><a href="freesstyle.html">Free style</a></li> 
+            <li><a href="coreografia.html">Coreografia</a></li> 
+            <li><a href="profesor.html">Profesor</a></li> 
+            <li><a href="contacto.html" target="_blanck">Contacto</a></li> 
+          </ul>
+        </nav>
+
+  </header>
+
+    <div class="datos">
+      <h2>Inscribite en el profesorado.</h2>
+    </div>
+
+ <main class="formulario">
+
+      <div class="bloque">
+
+        <form  action="enviar.php" method="get">
+            <div>
+            
+            <p>
+                <label for="nombreyapellido">Nombre y apellido</label>
+                <input type="text" id="nombreyapellido">
+            </p>
+               
+            <p>
+               <label for="mail">Email</label>
+               <input type="email" id="mail">
+
+            </p>
+            <p>
+               <label for="pass">Contraseña</label>
+               <input type="password" name="pass" id="pass">
+
+            </p>
+            <p>
+               <label for="paises">Region</label>
+            <select name="paises" id="paises">
+               <option value="arg">Argentina</option>
+               <option value="chi">Chile</option>
+               <option value="per">Peru</option>
+            </select>
+
+            </p>
+
+            <p>
+              <label for="multi">Dejenos su opinion</label><br>
+              <textarea name="multi" id="multi" cols="30" rows="5"></textarea>
+            </p>
+
+            <p>
+              <label for="curso">Te gusta el programa?</label>
+              <input type="radio" name="curso" id="si">Si 
+              <input type="radio" name="curso" id="no">No
+      
+            </p>
+
+            <p>
+              <label for="acepta">Acepto</label>
+              <input type="checkbox" name="acepta" id="Ter y cond">Term y cond
+              <input type="checkbox" name="acepta" id="news">Recibir noticias
+  
+            </p>
+       
+            <p>
+              <label for="file">Adjuntar</label>
+              <input type="file" name="file" id="file">
+              <input type="reset" value="Borrar todo">
+            </p>
+
+            <p>
+              <input type="submit" value="Enviar">
+            </p>
+
+            </div>
+
+        </form>
+     
+    </div>
+
+</main>
+
+   <div class="volver">
+      <a href="../index.html">Volver</a>
+   </div> 
+
+   <footer class="pie">
+        
+    <div class="nuestras">
+
+        <h4> Nuestras redes sociales.</h4>
+
+    </div>
+
+    <div class="redes">
+
+        <div>
+         <p class="insta">
+         <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+         </p>
+        </div>
+        <div>
+         <p class="face">
+         <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+         </p>
+        </div>
+    </div>
+   
+</footer>
+
+    
+</body>
+</html>
